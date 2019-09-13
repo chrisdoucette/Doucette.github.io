@@ -1,0 +1,21 @@
+<img src="[1000px-pianokeyboard-lettered] (imported)" width="293" height="218" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Chris Doucette -->
+<area shape="poly" coords="0,0,-1,216,40,216,43,146,26,144,24,0,23,0" href="c.wav" />
+<area shape="poly" coords="25,0,51,0,50,145,26,145,27,141" href="c#.wav" />
+<area shape="poly" coords="52,0,74,0,73,147,83,147,83,218,43,217,43,147,51,146" href="d.wav" />
+<area shape="rect" coords="74,0,99,146" href="d#.wav" />
+<area shape="poly" coords="101,1,101,146,85,147,85,217,125,217,125,1" href="e.wav" />
+<area shape="poly" coords="126,1,125,217,167,215,166,146,148,146,148,0" href="f.wav" />
+<area shape="rect" coords="150,0,173,146" href="f#.wav" />
+<area shape="rect" coords="195,0,220,145" href="g#.wav" />
+<area shape="rect" coords="244,0,268,145" href="a#.wav" />
+<area shape="poly" coords="174,0,174,146,167,146,170,216,210,216,209,146,197,146,195,1,186,0" href="g.wav" />
+<area shape="poly" coords="211,218,209,146,222,146,221,1,243,0,244,146,250,146,250,216" href="a.wav" />
+<area shape="poly" coords="251,146,268,145,268,1,288,1,288,217,250,217" href="b.wav" />
+</map>
