@@ -4,9 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Doucette Webpage</title>
+    <title>Chris Doucette: Devloper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/c001c2962d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    ul{
+        list-style-type: none;
+    }
+    li{
+        margin-bottom: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    body{
+        background-color: #23272A;
+    }
+    html, body {
+    margin: 0;
+    height: 100%;
+    }
+    img{
+        border-radius: 50%;
+        height: 50px;
+    }
+    a:hover{
+        color:#989898;
+        text-decoration: none;
+    }
+    div.fullscreen{
+        margin: 0;
+        height: 100%;
+    }
+    .Arialfont{
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+    .largeFont{
+        font-size: 350%;
+    }
+    .top-25{
+        margin-top: 25px;
+    }
+    .bottom-5{
+        margin-bottom: 5px;
+    }
+    .indentR{
+        margin-right: 10px;
+    }
+    .list{
+        right: 25%;
+        top: 40%;
+        position: fixed;
+        font-size: 1.75em;
+        font-weight: 700;
+    }
+    .lighterbackgroundshade{
+        background-color: #2C2F33;
+        
+    }
+    .homescreenintro{
+        position: fixed;
+        top: 30%;
+        left:15%;
+        width: 350px;
+    }
+    .floatgreytext{
+        color:#989898;
+        margin-left: 210px;
+        margin-top: 15px;
+    }
+    @media only screen and (max-width: 720px){
+        .phoneremove{
+            display: none;
+        }
+        .homescreenintro{
+            left:5%;
+        }
+        .list{
+            right: 15%;
+        }
+        .floatgreytext{
+            margin-left: 140px;
+        }
+    }
+    @media only screen and (max-width:960px)and (min-width:721px){
+        .homescreenintro{
+            left:5%;
+        }
+        .list{
+            right: 15%;
+        }
+    }
+    @media only screen and (min-width: 961px){
+        
+    }
+    </style>
 </head>
-<body>
-    <h1>Chris Doucette</h1>
+
+
+<body class="borderless Arialfont">
+<div class="row fullscreen">
+    <div class="col-sm-6">
+        <div class="homescreenintro">
+        <h1 class="largeFont bottom-5">Hello!</h1>
+        <div class="top-25">
+            <h2> <img src="image/0.jpg"class="phoneremove indentR"></img> My Name is Chris!</h3>
+                <span class="floatgreytext">a web developer.</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-6 lighterbackgroundshade">
+        <div class="list">
+            <ul>
+                <li><i class="far fa-smile-beam indentR"></i>About Me</li>
+                <li><i class="far fa-file-alt indentR"></i><a href="resume.html">Resume</a></li>
+                <li><i class="far fa-envelope indentR"></i><a href="https://www.linkedin.com/in/christopher-doucette-1a7703183/">Contact<a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>

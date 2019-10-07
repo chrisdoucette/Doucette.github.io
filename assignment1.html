@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doucette Webpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/c001c2962d.js" crossorigin="anonymous"></script>
+
+    <style>
+    ul{
+        list-style-type: none;
+    }
+    .Arialfont{
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        color: white;
+    }
+    .backgroundVideo{
+        min-width:100%;
+        bottom: 0;
+        right:0;
+        position: fixed;
+    }
+    .NameAndText{
+        position: fixed;    
+        top: 30%;
+        left: 30%;
+        text-align: center;
+        margin: auto;
+    }
+    .borderless{
+        margin: 0;
+        padding: 0;
+    }
+    .largeFont{
+        font-size: 350%;
+        color: white;
+    }
+    .top-5{
+        margin-top: 5px
+    }
+    .bottom-5{
+        margin-bottom: 5px;
+    }
+    .indentR{
+        margin-right: 10px;
+    }
+    .list{
+        right: 10%;
+        top: 10%;
+        position: fixed;
+        font-size: 1.75em;
+        font-weight: 700;
+    }
+    </style>
+
+</head>
+<body class="borderless Arialfont">
+    <div >
+        <video class="backgroundVideo" loop autoplay muted>
+             <source src="video/background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="list">
+        <ul>
+            <li><i class="far fa-smile-beam indentR"></i>About Me</li>
+            <li><i class="far fa-file-alt indentR"></i>Resume</li>
+            <li><i class="fas fa-power-off indentR"></i>Hobbies</li>
+            <li><i class="far fa-envelope indentR"></i>Contact</li>
+        </ul>
+    </div>
+
+    <div class="NameAndText">
+        <h1 class="largeFont bottom-5">Chris Doucette</h1>
+        <h2 class="top-5">developer</h2>
+    </div>
+    
+</body>
+</html>
