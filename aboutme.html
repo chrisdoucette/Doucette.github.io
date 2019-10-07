@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chris Doucette: Developer</title>
+    <title>About Chris Doucette</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="https://kit.fontawesome.com/c001c2962d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c001c2962d.js" crossorigin="anonymous"></script>
 
     <style>
+
     ul{
         list-style-type: none;
     }
@@ -31,6 +31,10 @@
     img{
         border-radius: 50%;
         height: 50px;
+    }
+    i{
+        margin: 140px;
+        margin-top: 50px;
     }
     a:hover{
         color:#989898;
@@ -56,12 +60,11 @@
     .indentR{
         margin-right: 10px;
     }
-    .list{
-        right: 25%;
+    .aboutme{
+        right: 10%;
         top: 40%;
         position: fixed;
-        font-size: 1.75em;
-        font-weight: 700;
+        width: 500px;
     }
     .lighterbackgroundshade{
         background-color: #2C2F33;
@@ -73,10 +76,11 @@
         left:15%;
         width: 350px;
     }
-    .floatgreytext{
+    .greytext{
         color:#989898;
-        margin-left: 210px;
-        margin-top: 15px;
+    }
+    .top-100{
+        margin-top: 100px;
     }
     @media only screen and (max-width: 720px){
         .phoneremove{
@@ -85,8 +89,9 @@
         .homescreenintro{
             left:5%;
         }
-        .list{
-            right: 15%;
+        .aboutme{
+            right: 5%;
+            width: 250px;
         }
         .floatgreytext{
             margin-left: 140px;
@@ -96,8 +101,9 @@
         .homescreenintro{
             left:5%;
         }
-        .list{
-            right: 15%;
+        .aboutme{
+            right: 3%;
+            width: 400px;
         }
     }
     @media only screen and (min-width: 961px){
@@ -105,28 +111,29 @@
     }
     </style>
 </head>
-
-
 <body class="borderless Arialfont">
-<div class="row fullscreen">
-    <div class="col-sm-6">
-        <div class="homescreenintro">
-        <h1 class="largeFont bottom-5">Hello!</h1>
-        <div class="top-25">
-            <h2> <img src="image/0.jpg"class="phoneremove indentR"></img> My Name is Chris!</h2>
-                <span class="floatgreytext">a web developer.</span>
+    <div class="row fullscreen">
+        <div class="col-sm-6">
+            <div class="homescreenintro">
+            <div class="top-25">
+                <h2>Who is Chris Doucette?</h2>
+            </div>
+            <i class="far fa-5x fa-user"></i>
+            </div>
         </div>
+        <div class="col-sm-6 lighterbackgroundshade">
+            <div class="aboutme">
+                <p>
+                    <span>
+                       Chris Doucette is a computer science major in his senior year at Bridgewater state University.
+                       Over the years he has refined his programming skills and knowledge in attempts to become the best developer he can be.
+                       He is currently working for a software company known as FrontrunnerHC working on web applications for the Healthcare Industry.
+                       Outside of work and school he spends a lot of his time with his family, friends, girlfriend, and dog named Bandit.
+                    </span>
+                </p>
+                <div class="top-100 greytext"><a href="index.html">Back to Homepage</a></div>
+            </div>
         </div>
     </div>
-    <div class="col-sm-6 lighterbackgroundshade">
-        <div class="list">
-            <ul>
-                <li><i class="far fa-smile-beam indentR"></i><a href="aboutme.html">About Me</a></li>
-                <li><i class="far fa-file-alt indentR"></i><a href="resume.html">Resume</a></li>
-                <li><i class="far fa-envelope indentR"></i><a href="https://www.linkedin.com/in/christopher-doucette-1a7703183/">Contact<a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 </body>
 </html>
